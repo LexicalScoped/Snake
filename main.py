@@ -135,6 +135,8 @@ class Window:
         for block in self.Snake.Tail:
             if [food.X, food.Y] == [block.X, block.Y]:
                 regen = True
+        if [food.X, food.Y] == [self.Snake.X, self.Snake.Y]:
+            regen = True
         if regen:
             return self.GenFood(Good)
         else:
