@@ -44,18 +44,17 @@ class Window:
         Y_POSITION = 30
         Menu = []
         FontColor = self.FontColor
-        match self.Screen:
-            case SCREEN.MAIN:
-                Menu = Main
-            case SCREEN.INFO:
-                Menu = Info
-            case SCREEN.MODE:
-                Menu = Mode
-            case SCREEN.PAUSE:
-                Menu = Pause
-            case SCREEN.END:
-                Menu = End
-                FontColor = COLORS["RED"]
+        if self.Screen == SCREEN.MAIN:
+            Menu = Main
+        if self.Screen == SCREEN.INFO:
+            Menu = Info
+        if self.Screen == SCREEN.MODE:
+            Menu = Mode
+        if self.Screen == SCREEN.PAUSE:
+            Menu = Pause
+        if self.Screen ==  SCREEN.END:
+            Menu = End
+            FontColor = COLORS["RED"]
         for Line in Menu:
             Text = self.Font.render(Line, True, FontColor)
             self.Display.blit(Text, [30, Y_POSITION])

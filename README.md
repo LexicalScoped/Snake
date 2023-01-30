@@ -5,18 +5,22 @@ This is a more polished/finished product to aim [My YouTube Channel](https://www
 
 You can find the Youtube Series [Here](https://www.youtube.com/watch?v=TxR0Oz2fkVw&list=PLrgfP3SxurhL7oOWoMkCXR4F10c0Ypp1E)
 
-# Requirements
+# Requirements for Source
 
-Python 3.10 or newer
+Python 3.9.7 or newer
 PyGame 2.0.1 (SDL 2.0.14, Python 3.9.7)
 
-NOTE: this was done using the pip install PRE-RELEASE which allows it to load previous versions or pre-release/development versions as Pygame is not out for 3.10+ yet.
+NOTE: if using Python 3.10+ you will need to use the pip install PRE-RELEASE which allows it to load previous versions or pre-release/development versions as Pygame is not out for 3.10+ yet.
 ```
 pip install pygame --pre
 ```
 
 Ensure you have Python in your path directory 
 HOWTO: [YouTube Link](https://www.youtube.com/watch?v=MOq3uIPBEsU&ab_channel=LexicalScoped)
+
+# Executable under dist directory
+
+Leveraged PyInstaller to build stand alone Executable.
 
 # Authors
 

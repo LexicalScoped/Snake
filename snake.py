@@ -14,15 +14,14 @@ class Snake:
         self.Tail = []
     
     def Move(self):
-        match self.Direction:
-            case DIRECTIONS.UP:
-                self.Y -= self.Size
-            case DIRECTIONS.DOWN:
-                self.Y += self.Size
-            case DIRECTIONS.LEFT:
-                self.X -= self.Size
-            case DIRECTIONS.RIGHT:
-                self.X += self.Size
+        if self.Direction == DIRECTIONS.UP:
+            self.Y -= self.Size
+        if self.Direction == DIRECTIONS.DOWN:
+            self.Y += self.Size
+        if self.Direction ==  DIRECTIONS.LEFT:
+            self.X -= self.Size
+        if self.Direction == DIRECTIONS.RIGHT:
+            self.X += self.Size
 
 class SnakeTail:
     def __init__(self, X, Y, COLOR):
