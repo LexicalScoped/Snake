@@ -8,6 +8,7 @@ You can find the Youtube Series [Here](https://www.youtube.com/watch?v=TxR0Oz2fk
 # Requirements for Source
 
 Python 3.9.7 or newer
+
 PyGame 2.0.1 (SDL 2.0.14, Python 3.9.7)
 
 NOTE: if using Python 3.10+ you will need to use the pip install PRE-RELEASE which allows it to load previous versions or pre-release/development versions as Pygame is not out for 3.10+ yet.
@@ -22,8 +23,9 @@ HOWTO: [YouTube Link](https://www.youtube.com/watch?v=MOq3uIPBEsU&ab_channel=Lex
 
 Leveraged PyInstaller to build stand alone Executable.
 
-This is under the "dist" directory Direct Link:
-[main.exe](https://github.com/LexicalScoped/Snake/raw/main/dist/main.exe)
+The Executable has been uploaded in the dist directory
+
+Direct Download Link: [main.exe](https://github.com/LexicalScoped/Snake/raw/main/dist/main.exe)
 
 # Authors
 
