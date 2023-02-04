@@ -18,9 +18,11 @@ pip install pygame --pre
 Ensure you have Python in your path directory 
 HOWTO: [YouTube Link](https://www.youtube.com/watch?v=MOq3uIPBEsU&ab_channel=LexicalScoped)
 
-# Executable under dist directory
+# Executable
 
 Leveraged PyInstaller to build stand alone Executable.
+This is under the "dist" directory Direct Link:
+[main.exe](https://github.com/LexicalScoped/Snake/raw/main/dist/main.exe)
 
 # Authors
 
